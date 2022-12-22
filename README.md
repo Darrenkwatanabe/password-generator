@@ -57,6 +57,13 @@ generateBtn.addEventListener("click", writePassword);
 
 ## Usage
 
+First we are displayed with the webpage with a generate password button. 
+
+<img src = "./images/password generator.PNG">
+
+After clicking the generate password button, the user is prompted with an option of their desired password length.
+
+
 
 
 ## Learning Points

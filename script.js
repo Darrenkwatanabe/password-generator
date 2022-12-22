@@ -28,7 +28,7 @@ function generatePw() {
         if (lcChars == true) {
             console.log("User would like to include lower case letters in password.");
             generatedPassword = allChars.concat(lowerCase);
-            generatedPassword = 
+            generatedPassword = Math.random(allChars);
         }
         else {
             console.log("User would not like to include lower case letters in password.");
@@ -40,6 +40,7 @@ function generatePw() {
         if (upChars == true) {
             console.log("User would like to include upper case letters in password.");
             generatedPassword = allChars.concat(upperCase);
+            generatedPassword = Math.random(allChars);
         }
         else {
             console.log("User would not like to include upper case letters in password.");
@@ -51,6 +52,7 @@ function generatePw() {
         if (nums == true) {
             console.log("User would like to include numbers in password.");
             generatedPassword = allChars.concat(numbers);
+            generatedPassword = Math.random(allChars);
         }
         else {
             console.log("User would not like to include numbers in password.");
@@ -62,6 +64,7 @@ function generatePw() {
         if (specialChars == true) {
             console.log("User would like to include special characters in password.");
             generatedPassword = allChars.concat(specialCharacters);
+            generatedPassword = Math.random(allChars);
         }
         else {
             console.log("User would not like to include special characters in password.");
