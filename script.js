@@ -65,7 +65,7 @@ function generatePw() {
             console.log("User would not like to include special characters in password.");
         }
 
-        console.log("The user's new generated password is: " + generatedPassword + ".");    
+        console.log("The user's new generated password is: " + generatedPw + ".");    
     }
 }
 
@@ -75,9 +75,9 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  var password = generatePassword();
+  var password = generatePw();
   var passwordText = document.querySelector("#password");
-
+  
   passwordText.value = password;
 
 }
