@@ -1,5 +1,13 @@
 // Assignment code here
 
+function passwordGenerator() {
+    let passwordEntry = prompt("Please enter a password with a length of at least 8 characters and no more than 128 characters.");
+    if (passwordEntry < 8 || passwordEntry > 128) {
+        alert ("ERROR! Please enter a password within the allowed password length.");
+    } 
+
+}
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
