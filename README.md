@@ -16,7 +16,7 @@
 
 ## Description
 
-[Visit the Deployed Site](https://darrenkwatanabe.github.io/password-generator/)
+[Password Generator](https://darrenkwatanabe.github.io/password-generator/)
 
 For this assignment, we were given the starter code for a password generator and were tasked to prompt the user if they would
 like the following criteria in their password:
