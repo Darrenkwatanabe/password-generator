@@ -63,12 +63,21 @@ First we are displayed with the webpage with a generate password button.
 
 After clicking the generate password button, the user is prompted with an option of their desired password length.
 
+<img src = "./images/passwordlengthprompt.PNG">
 
+Then user is shown boxes to confirm desired usage of lower case letters, upper case letters, numbers, and/or special characters.
+
+<img src = "./images/lower case confirm.PNG"> <br>
+<img src = "./images/upper case confirm.PNG"> <br>
+<img src = "./images/numbers confirm.PNG"> <br>
+<img src = "./images/special characters confirm.PNG">
 
 
 ## Learning Points
 
-
+This project was very helpful as I learned how to utilize arrays and be able to merge them with a newly created array. Also, by using the Math.floor 
+and Math.random objects, this allowed me to randomize from the array list to generate a password. I still need work on writing the code to generate
+the password with using the arrays, but I feel like I've learned a lot when it comes to the for loops being used for this task.
 
 ## Author Info
 
