@@ -65,8 +65,8 @@ generateBtn.addEventListener("click", writePassword);
 
 ## Author Info
 
-Darren Watanabe
-UC Berkeley Coding Bootcamp Student
-Email: watanabedarren@yahoo.com
-[Github](https://github.com/Darrenkwatanabe)
+Darren Watanabe <br>
+UC Berkeley Coding Bootcamp Student <br>
+Email: watanabedarren@yahoo.com <br>
+[Github](https://github.com/Darrenkwatanabe) <br>
 [LinkedIn](https://www.linkedin.com/in/darren-watanabe-982526253/)
