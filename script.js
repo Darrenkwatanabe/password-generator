@@ -18,26 +18,28 @@ function generatePw() {
 
     if (passwordEntry >= 8 && passwordEntry <= 128) {
         var allChars = [];
-        var generatedPassword = [];
+        var generatedPassword = '';
         
         // Using confirm boxes to confirm with user if they would like any of the following criteria including in desired password
         // Confirming to include lower case characters
+        // NTS: Need to add random generator for each type of character below
         var lcChars = confirm("If you would like to include lower case letters in your password, click OK");
 
-        if (lowerCase == true) {
+        if (lcChars == true) {
             console.log("User would like to include lower case letters in password.");
-            generatedPassword = generatedPassword.concat(lowerCase);
+            generatedPassword = allChars.concat(lowerCase);
+            generatedPassword = 
         }
         else {
             console.log("User would not like to include lower case letters in password.");
         }
 
         // Confirming to include upper case letters
-        var UpChars = confirm("If you would like to include upper case letters in your password, click OK");
+        var upChars = confirm("If you would like to include upper case letters in your password, click OK");
 
-        if (upperCase == true) {
+        if (upChars == true) {
             console.log("User would like to include upper case letters in password.");
-            generatedPassword = generatedPassword.concat(upperCase);
+            generatedPassword = allChars.concat(upperCase);
         }
         else {
             console.log("User would not like to include upper case letters in password.");
@@ -46,9 +48,9 @@ function generatePw() {
         // Confirming to include numbers
         var nums = confirm("If you would like to include numbers in your password, click OK");
 
-        if (numbers == true) {
+        if (nums == true) {
             console.log("User would like to include numbers in password.");
-            generatedPassword = generatedPassword.concat(numbers);
+            generatedPassword = allChars.concat(numbers);
         }
         else {
             console.log("User would not like to include numbers in password.");
@@ -57,15 +59,19 @@ function generatePw() {
         // Confirming to include special characters
         var specialChars = confirm("If you would like to include special characters in your password, click OK");
 
-        if (specialCharacters == true) {
+        if (specialChars == true) {
             console.log("User would like to include special characters in password.");
-            generatedPassword = generatedPassword.concat(specialCharacters);
+            generatedPassword = allChars.concat(specialCharacters);
         }
         else {
             console.log("User would not like to include special characters in password.");
         }
+        
+        console.log("All selected characters: " + allChars);
 
-        console.log("The user's new generated password is: " + generatedPw + ".");    
+        console.log("The user's new generated password is: " + generatedPassword + ".");
+        
+        return generatedPassword;
     }
 }
 
